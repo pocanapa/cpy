@@ -1,0 +1,7 @@
+numA = int(input("Digite o numero A: "))
+numB = int(input("Digite o numero B: "))
+
+if numA / numB
+print("A é divisivel por B")
+else:
+    print("A não é divisivel por B")
