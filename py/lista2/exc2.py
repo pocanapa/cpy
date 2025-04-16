@@ -1,12 +1,12 @@
 #Escrever um algoritmo que leia dois valores inteiro distintos e informe qual é o maior ou se
 #houve um empate.
 
-valor1 = float(input("Digite o primeiro valor: "))
-valor2 = float(input("Digite o segundo valor: "))
+valor1 = int(input("Informe um numero: "))
+valor2 = int(input("Informe um numero: "))
 
 if valor1 > valor2:
-    diferenca = valor1 - valor2
-else:
-    diferenca = valor2 - valor1
-
-print("A diferença entre os valores é: ", diferenca)
+    print(f"O maior valor é: {valor1}")
+elif valor2 > valor1:
+    print(f"O maior valor é: {valor2}")
+else: 
+    print("Os valores sao iguais. Houve um empate.")
